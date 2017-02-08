@@ -1,0 +1,47 @@
+body{
+  font-family: 'Barrio', cursive;
+  margin:30px;
+  text-align: center;
+  background: pink;
+}
+
+canvas {
+  height:400px;
+  border: 1px solid brown;
+  box-shadow: 0 0 50px #3F0C1F;
+  
+}
+
+#loadImg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#filterImg{
+  display: inline-block;
+}
+
+h1{
+  font-size: 50px;
+  color: maroon;
+}
+
+h2{
+  color:purple;
+}
+
+
+input{
+  font-size:10pt;
+  margin-right:15px;
+  height: 25px;
+}
+ 
+ #btnReset{
+  background-color: brown;
+  border-radius: 8px;
+  border: 2px solid brown;
+ }
+
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+	<script type="text/javascript" src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="final.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+</head>
+<body>
+
+	<h1>Filter Fun</h1>
+	<canvas id="can"></canvas>
+
+	<p>
+	<section id="loadImg">
+		<h2>Load Image</h2>
+		<input type="file" multiple="false" accept="image/*"  id="imgFile" onchange="loadImage()">
+	</section>
+	
+	<section id="filterImg">
+		<h2>Choose Filter </h2>
+		<div class="buttonF">
+		  <input type="button" value="Blur" onclick="doBlur()">
+		  <input type="button" value="Rainbow" onclick="doRainbow()" >
+		  <input type="button" value="Grayscale" onclick="doGray()" >
+		  <input type="button" value="Red" onclick="doRed()"> 
+		  <input type="button" value="Reset Image" onclick="doReset()" id="btnReset">
+		</div>
+	</section>
+
+	
+	
+
+
+	</p>
+
+
+
+</body>
+</html>
